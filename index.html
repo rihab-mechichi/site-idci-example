@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>IDCI</title>
+  </head>
+  <body>
+    <div id="nav">
+      <img src="img/Calque 0.png" id="logo" alt="logo idci">
+      <ul id="list-nav">
+        <li class="nav accueil"><a id="accueil" href="#menu">Acceuil</a></li>
+        <li class="nav rest"><a href="#service">Services</a></li>
+        <li class="nav rest"><a href="#features">Valeurs</a></li>
+        <li class="nav rest"><a href="#portfolio">Formations</a></li>
+        <li class="nav rest"><a href="#team">Equipe</a></li>
+        <li class="nav rest"><a href="#blog">Projets</a></li>
+        <li class="nav rest"><a href="#contact">Contact</a></li>
+        <li class="nav rest search">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+        </li>
+      </ul>
+    </div>
+    <!--<div id="bloq-vide"></div>-->
+    <div id="menu">
+      <div id="tt">
+        <h1 class="idci"><span class="blue">I</span><span class="jaune">D</span><span class="blue">C</span><span class="jaune">I</span></h1>
+        <h1 id="idci"><span class="blue">I</span>nstitut de <span class="jaune">D</span>éveloppement et des <span class="blue">C</span>ompétences à l'échelle <span class="jaune">I</span>nternationale</h1>
+        <p id="idci-but">Créateurs de Talents</p>
+        <button id="down">Contactez-nous <i class="fa fa-phone"></i></button>
+      </div>
+    </div>
+
+
+
+    <div id="service">
+      <h1 id="title">NOS SERVICES</h1>
+      <hr class="lines">
+      <p id="pg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+        Lorem ipsum dolor sit amet, consectetur.</p>
+      <div id="ser">
+        <div class="s1">
+          <i class="fa fa-edit"></i>
+          <h3>Formation</h3>
+          <div class="txt un">
+           <p>Formation initiale, accéleré, continue, sur mesure</p>
+          </div>
+          </div>
+        <div class="s1">
+          <i class="fa fa-code"></i>
+          <h3>Entrepreneurial</h3>
+          <div class="txt deux">
+            <p>Création des projets, extension des projets, accompagnement</p>
+           </div>       
+           </div>
+        <div class="s1">
+          <i class="fa fa-code"></i>
+          <h3>Coworking-space</h3>
+          <div class="txt deux">
+            <p> Espace privée, freelance, domiciliation</p>
+           </div>       
+           </div>
+
+            <div class="s1">
+              <i class="fa fa-edit"></i>
+              <h3>Evènement</h3>
+              <div class="txt un">
+               <p>Evènement professionelle, conférence, séminaire</p>
+              </div>
+              </div>
+
+              <div class="s1">
+                <i class="fa fa-edit"></i>
+                <h3>Recrutement</h3>
+                <div class="txt un">
+                 <p>Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod tincidunt ut.</p>
+                </div>
+                </div>
+
+
+      </div>
+    </div>
+
+
+
+    <div id="features">
+      <h1 id="title-feature">NOS VALEURS</h1>
+      <hr class="lines">
+      <p id="pg2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+        Lorem ipsum dolor sit amet, consectetur.</p>
+      <div id="feat">
+        <div id="f">
+              <div class="f1">
+                <i class="fa fa-rocket"></i>
+                <div id="ele">
+                  <h4>BOOTSTRAP 4 BASED</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                </div>
+              </div>
+              <div class="f1">
+                <i class="fa fa-laptop"></i>
+                <div id="ele">
+                 <h4>FULLY RESPONSIVE</h4>
+                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                </div>
+              </div>
+              <div class="f1">
+                <i class="fa fa-map"></i>
+                <div id="ele">
+                <h4>PARALLAX BACKGROUND</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                </div>
+              </div>
+              <div class="f1">
+                <i class="fa fa-cog"></i>
+                <div id="ele">
+                <h4>EASY TO CUSTOMIZE</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
+                </div>
+              </div>
+        </div>
+              <div
+              id="bloq-img">
+                <img src="img/pic.png">
+              </div>
+      </div>
+
+    <div id="portfolio">
+      <h1 id="title-team">NOS FORMATIONS</h1>
+      <hr class="lines">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+        Lorem ipsum dolor sit amet, consectetur.</p>
+      <ul id="list-port" id="myBtnContainer">
+        <li id="all" class="btn active" onclick="filterSelection('all')">TOUT</li>
+        <li class="res" id="print" class="btn" onclick="filterSelection('people')">CREATION DES PROJETS</li>
+        <li class="res d" class="btn" onclick="filterSelection('nature')">FORMATION Initiale</li>
+        <li class="res dev" class="btn" onclick="filterSelection('cars')">FORMATION ACCELEREE</li>
+        <li class="res" id="print" class="btn" onclick="filterSelection('people')">FORMATION CONTINUE</li>
+      </ul>
+      <div id="port-img"> 
+        <div class="column nature">
+          <div class="content">
+            <img src="img/e.jpg">
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+            <img src="img/ee.jpg">
+          </div>
+        </div>
+      
+        <div class="column cars">
+          <div class="content">
+            <img src="img/eee.jpg" >
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="img/eeee.jpg">
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="img/eeeee.jpg">
+          </div>
+        </div>
+      
+        <div class="column people">
+          <div class="content">
+            <img src="img/eeeeee.jpg">
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="img/e.jpg" >
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="img/eeee.jpg" >
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="img/eee.jpg">
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="img/e.jpg">
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="img/eeeeee.jpg">
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="img/eeee.jpg">
+          </div>
+        </div>
+    </div>
+
+
+
+
+  <div id="video">
+    <h2>REGARDEZ NOTRE INTRO VIDÉO</h2>
+    <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper orci.</p>
+    <div id="video-icon">
+     <span id="span-icon"> <i class="fa fa-play-circle"></i></span>
+     <video id="vido" src="video/Vidéo.IDCI.mp4" width=400  height=300 controls poster="vignette.jpg">
+      Une version est disponible en téléchargement sous <a href="URL">adresse du lien </a> . 
+    </video>
+    </div>
+  </div>
+
+
+  <div id="pourcentage">
+    <div class="pour">
+      <ul class="list-pour">
+        <li><i id="hour" class="fa fa-history"></i></li>
+        <li><span>1589</span></li>
+        <li><h4>Heures de travail</h4></li>
+      </ul>
+    </div>
+    <div class="pour">
+      <ul class="list-pour">
+        <li><i id="sac" class="fa fa-briefcase"></i></li>
+        <li><span>699</span></li>
+        <li><h4>Projets réalisés</h4></li>
+      </ul>
+    </div>
+    <div class="pour">
+      <ul class="list-pour">
+        <li><i id="user" class="fa fa-user"></i></li>
+        <li><span>202</span></li>
+        <li><h4>Nbr d'etudiants</h4></li>
+      </ul>
+    </div>
+    <div class="pour">
+      <ul class="list-pour">
+        <li><i id="heart" class="fa fa-heart"></i></li>
+        <li><span>1689</span></li>
+        <li><h4>Etudiant satisfais</h4></li>
+      </ul>
+    </div>
+</div>
+
+
+    <div id="team">
+        <h1 id="title-team">NOTRE EQUIPE</h1>
+        <hr class="lines">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+          Lorem ipsum dolor sit amet, consectetur.</p>
+        <div id="equipe">
+            <div>
+                <img id="nejib" src="img/flou.jpg" alt="le manager">
+                <h3>Ben Ltaif Nejib</h3>
+                <p>Manger</p>
+                <ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/f.jpg" alt="le developpeur">
+                <h3>ben abdalah</h3>
+                <p>Marketeur Digital</p>
+                <ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/ff.jpg" alt="le disagneur">
+                <h3>Ben Hamza</h3>
+                <p class="parag graphic">Développeur Web</p>
+                <ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <img src="img/fff.jpg" alt="le marketeur">
+                <h3>Emilly Williams</h3>
+                <p class="parag manager">Business Manager</p>
+                <ul class="social-list">
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+
+      
+
+      <div id="animation">
+        <div id="slider">
+          <div class="slides">
+            <div class="slide">
+              <img src="img/riri.PNG">
+              <p  class="def"> 
+                Client Testimonoal
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do
+                adipisicing ciusmod tempor incididunt ut labore et</p>
+              <p class="name">Mechichi Rihab</p>
+              <span>Fondor of jolmari</span>
+            </div>
+            <div class="slide">
+              <img src="img/marwa.PNG">
+                <p  class="def"> 
+                Client Testimonoal
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do
+                adipisicing ciusmod tempor incididunt ut labore et</p>
+              <p class="name">Guesmi Marwa</p>
+              <span>Fondor of jolmari</span>
+            </div>
+            <div class="slide">
+              <img src="img/john.jpg">
+              <p  class="def"> 
+                Client Testimonoal
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do
+                adipisicing ciusmod tempor incididunt ut labore et</p>
+              <p class="name">Dhaouadi Olfa</p>
+              <span>Fondor of jolmari</span>
+            </div>
+            <div class="slide">
+              <img src="img/sana.PNG">
+            <div>
+              <p  class="def"> 
+                Client Testimonoal
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do
+                adipisicing ciusmod tempor incididunt ut labore et</p>
+              </div>
+              <p class="name">Soudani Sana</p>
+              <span>Fondor of jolmari</span>
+            </div>
+            </div>
+          </div>   
+      </div>
+
+
+
+
+      <div id="blog">
+        <h1 id="title-blog">NOS REALISATIONS</h1>
+        <hr class="lines">
+        <p id="pg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+          Lorem ipsum dolor sit amet, consectetur.</p>
+          <div id="img-blog">
+            <div class="blo">
+             <img id="myImg" src="img/1.jpg">
+             <div id="myModal" class="modal">
+               <span class="close">&times;</span>
+               <img class="modal-content" id="img01">
+               <div id="caption"></div>
+             </div>
+              <h3>CFCR </h3>
+              <p class="blo-p">Centre_de_formation, coaching, recherche d’emploi,... de notre candidate "Mohamed Bahaeddine Gasmi"</p>
+              <span>Read More <i class="fa fa-arrow-right"></i></span>
+            </div>
+            <div class="blo">
+              <img src="img/2.jpg" id="myImg">
+              <h3>EIMA</h3>
+              <p>Le projet à la marsa EIMA (École Internationale des Métiers de l’Avenir) de notre candidate "Lilia Bouallegue</p>
+              <span class="blo-p">Read More <i class="fa fa-arrow-right"></i></span>
+            </div>
+            <div class="blo">
+              <img src="img/3.jpg" id="myImg">
+              <h3>PARA Green Way</h3>
+              <p class="blo-p">PARA Green Way la parapharmacie de notre candidate "Mezzi Meriam" à #manzel_bourguiba #bizerte</p>
+              <span>Read More <i class="fa fa-arrow-right"></i></span>
+            </div>    
+            <div class="blo">
+              <img src="img/3.jpg" id="myImg">
+              <h3>Café_Artistique</h3>
+              <p class="blo-p"> Café_Artistique et Culturel en plein centre ville de Tunis (#lafayette)</p>
+              <span>Read More <i class="fa fa-arrow-right"></i></span>
+            </div> 
+            <div class="blo">
+              <img src="img/3.jpg" id="myImg">
+              <h3>Social media at work</h3>
+              <p class="blo-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+              <span>Read More <i class="fa fa-arrow-right"></i></span>
+            </div> 
+            <div class="blo">
+              <img src="img/3.jpg" id="myImg">
+              <h3>Social media at work</h3>
+              <p class="blo-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+              <span>Read More <i class="fa fa-arrow-right"></i></span>
+            </div> 
+          </div>
+      </div>
+
+      
+
+      <div id="contact">
+        <div id="list-item">
+          <h3 id="title-contact">Contactez-nous</h3>
+          <ul id="list-contact">
+            <li>La banlieuse sud de Tunis, Hamem-lif, Ben Arous</li>
+            <li class="phone">Téléphone: <span>(+216 26 566 606)</span></li>
+            <li class="email">E-mail: <span>(idci.formation@outlook.com)</span></li>
+          </ul>
+          <ul id="social-icon">
+            <li id="fcb" class="facebook2"><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li id="twit" class="twitter2"><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li id="gog" class="google-plus2"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li id="link" class="linkedin2"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li id="drib" class="drib2"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+        <div id="list-champ">
+          <form>
+            <input id="name" type="text" placeholder="Votre Nom" required data-error="svp enter votre nom">
+           <input id="email" type="text" placeholder="Votre Email" required data-error="enter votre email">
+           <textarea id="message" placeholder="Votre Message" required></textarea>
+           <button id="btn" type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+            
+      <footer id="footer">
+        <ul id="list-footer">
+          <li>Accueil</li>
+          <li>Services</li>
+          <li>AboutUs</li>
+          <li>Contact</li>
+        </ul>
+        <p id="copy">All copyrights reserved © 2021 - Designé & Developé par IDCI</p>
+      </footer>
+      <div id="scroll"><a href="#" id="top"><i class="fa fa-arrow-up"></i></a></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
